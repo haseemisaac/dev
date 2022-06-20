@@ -1,0 +1,19 @@
+{
+    "name": "TodoApp",
+    "tables": [
+        {
+            "name": "todo",
+            "fields": {
+                "id": {
+                    "type": "number",
+                    "auto-generated": true
+                },
+                "description": "text",
+                "done" : "boolean"
+            }
+        }
+    ],
+    "connections": [
+        
+    ]
+}
